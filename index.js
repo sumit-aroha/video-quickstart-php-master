@@ -8,7 +8,7 @@ if (!navigator.webkitGetUserMedia && !navigator.mozGetUserMedia) {
     alert('WebRTC is not available in your browser.');
 }
 
-$.getJSON('/video-quickstart-php-master/token.php', function(data) {
+$.getJSON('/token.php', function(data) {
     identity = data.identity;
     var accessManager = new Twilio.AccessManager(data.token);
 
