@@ -34,7 +34,7 @@ function clientConnected() {
     });
 
     // Bind button to create conversation
-    /*document.getElementById('button-invite').onclick = function () {
+    document.getElementById('button-invite').onclick = function () {
         var inviteTo = document.getElementById('invite-to').value;
         if (activeConversation) {
             // Add a participant
@@ -51,7 +51,7 @@ function clientConnected() {
                 console.error('Unable to create conversation', error);
             });
         }
-    };*/
+    };
 }
 
 // Conversation is live
