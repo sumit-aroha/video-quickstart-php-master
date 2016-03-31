@@ -1,5 +1,5 @@
 <?php
-
+ 
 // Generate a random username for the connecting client
 function randomUsername() {
     $ADJECTIVES = array(
